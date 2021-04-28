@@ -1,0 +1,15 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 121, 121);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 500px;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: aliceblue;
+}

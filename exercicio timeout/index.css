@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: darkslateblue;
+    display: flex;
+    align-items: initial;
+    justify-content: center;
+    
+}
+
+.meio{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px black;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.relogio{
+    font-size: 20pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.relogio-red{
+    color: red;
+}
+
+.buttons{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contar{
+    color: white;
+    font-size: 13pt;
+    margin: 0 10px;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: rgb(26, 26, 99);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+}
+
+.contar:hover{
+    background-color: rgb(111, 0, 255);
+}
+
+.parar{
+    color: white;
+    font-size: 13pt;
+    margin: 0 10px;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: rgb(26, 26, 99);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+}
+
+.parar:hover{
+    background-color: rgb(111, 0, 255);
+}
+
+.zerar{
+    color: white;
+    font-size: 13pt;
+    margin: 0 10px;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: rgb(26, 26, 99);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+}
+
+.zerar:hover{
+    background-color: rgb(111, 0, 255);
+}
