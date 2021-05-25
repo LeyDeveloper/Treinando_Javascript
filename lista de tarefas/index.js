@@ -3,7 +3,7 @@ const btnTarefa = document.querySelector('.btn-tarefa')
 const tarefas = document.querySelector('.tarefas')
 
 
-
+// criando um elemento da lista
 function criaLi(){
     const li = document.createElement('li')
     return li
@@ -83,5 +83,5 @@ function adicionaTarefasSalvas() {
     for(let tarefa of listaDeTarefas) {
       criaTarefa(tarefa);
     }
-  }
+}
   adicionaTarefasSalvas();

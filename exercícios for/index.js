@@ -66,10 +66,10 @@ function criaSection(elemento){
 */
 
 const elementos = [
-    {tag: 'p', texto: 'Frase 1'},
-    {tag: 'div', texto: 'Frase 2'},
-    {tag: 'footer', texto: 'Frase 3'},
-    {tag: 'section', texto: 'Frase 4'}
+    {tag: 'p', texto: 'Frase 1'},   // indice 0
+    {tag: 'div', texto: 'Frase 2'},    // indice 1
+    {tag: 'footer', texto: 'Frase 3'},    // indice 2
+    {tag: 'section', texto: 'Frase 4'}     //indice 3
 ]
 
 const container = document.querySelector('.container')
